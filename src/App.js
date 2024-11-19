@@ -13,7 +13,7 @@ const App = () => {
     const newTextField = {
       id: Date.now(),
       text: "",
-      fontSize: 16,
+      fontSize: 20,
       fontFamily: "sans-serif",
       isBold: false,
       isUnderline: false,

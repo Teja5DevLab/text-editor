@@ -72,7 +72,7 @@ const Footer = ({ handleAddText, handleStyleChange }) => {
       </button>
       <input
         type="number"
-        defaultValue={16}
+        defaultValue={20}
         onChange={(e) => handleStyleChange("fontSize", e.target.value)}
         className="px-4 py-[6px] text-sm font-bold text-gray-600 shadow-md bg-gray-100 hover:bg-gray-200 rounded-full w-16"
         min="10"
