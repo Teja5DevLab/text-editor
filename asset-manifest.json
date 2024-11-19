@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/text-editor/static/css/main.c40f40fa.css",
+    "main.js": "/text-editor/static/js/main.261702cc.js",
+    "static/media/logo.png": "/text-editor/static/media/logo.2a942c898cd7004a9d6c.png",
+    "index.html": "/text-editor/index.html",
+    "main.c40f40fa.css.map": "/text-editor/static/css/main.c40f40fa.css.map",
+    "main.261702cc.js.map": "/text-editor/static/js/main.261702cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c40f40fa.css",
+    "static/js/main.261702cc.js"
+  ]
+}
