@@ -24,7 +24,7 @@ const fontList = [
 
 const Footer = ({ handleAddText, handleStyleChange }) => {
   return (
-    <div className="w-full border-t-2 bg-white py-4 shadow-2xl flex justify-center items-center gap-4">
+    <div className="w-full border-t-2 bg-white py-4 shadow-2xl flex flex-wrap justify-center items-center gap-4">
       <button
         onClick={handleAddText}
         className="px-4 py-2 flex items-center rounded-full text-xs font-bold text-gray-600 shadow-md bg-gray-100 hover:bg-gray-200"

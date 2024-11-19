@@ -4,9 +4,9 @@ import { BiUndo, BiRedo } from "react-icons/bi";
 
 const Header = ({ undo, redo, canUndo, canRedo }) => {
   return (
-    <div className="w-full border-b-2 relative h-20 bg-white py-4 shadow-2xl flex items-center px-8">
+    <div className="w-full border-b-2 relative h-20 bg-white py-4 shadow-2xl flex justify-end items-center px-8">
       <img className="w-16 absolute top-1 left-5" src={logo} alt="Logo" />
-      <div className="flex mx-auto gap-4">
+      <div className="flex lg:mx-auto gap-4">
         <button
           onClick={undo}
           disabled={!canUndo}
